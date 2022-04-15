@@ -4,7 +4,7 @@ metadata:
   name: postgres-volume-claim
   namespace: vote-space
 spec:
-  storageClassName: aws-sc
+  storageClassName: gp2
   accessModes:
     - ReadWriteOnce
   resources:
